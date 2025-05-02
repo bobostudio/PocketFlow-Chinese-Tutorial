@@ -15,6 +15,8 @@ flowchart TD
 
 ## 步骤1: 创建项目目录结构
 
+材料下载 [resume.txt](../data/resume.txt)
+
 ```bash
 # 进入虚拟环境
 cd p3
@@ -22,8 +24,8 @@ cd p3
 cd workspace
 # 新建目录
 mkdir data
-# 复制提供的 resume.txt 到你的 data 目录下
-[resume.txt](../data/resume.txt)
+# 复制提供的 resume.txt 到你项目的 data 目录下
+cp ../data/resume.txt ./data/
 # 创建项目文件
 touch main2.py flows/resumeParseFlow.py
 ```
