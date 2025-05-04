@@ -1,13 +1,15 @@
 # PocketFlow之**单智能体**(Agent)-旅行规划助手
 
-本小节，您将了解如何实现一个单 Agent，单 Agent 模式是指使用一个智能体（Agent）来完成一系列任务的模式，在 PocketFlow 中，这个 Agent 由多个节点（Nodes）组成，这些节点通过Flow 连接起来，形成一个决策和执行流程。
+本小节，您将了解如何实现一个单 Agent，单 Agent 模式是指使用一个智能体（Agent）来完成一系列任务的模式，在 PocketFlow 中，这个 Agent 由多个节点（Nodes）组成，这些节点通过 Flow 连接起来，形成一个决策和执行流程。
 
 ## 项目流程图
 
+```mermaid
 graph TD
     A[DecideAction] -->|"search"| B[SearchWeb]
     A -->|"answer"| C[AnswerQuestion]
     B -->|"decide"| A
+```
 
 ## 前置条件: [环境安装与配置](./init-env.md)
 
