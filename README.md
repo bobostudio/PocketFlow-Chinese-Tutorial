@@ -20,7 +20,7 @@ PocketFlow强调代理编码 **Agentic Coding** 的开发范式，即"人类设�
 - [x] [PocketFlow之**节点**(Node)-简易聊天机器人](./lesson/lesson1.md)
 - [x] [PocketFlow之**结构化输出**(Structured Output)-提取简历数据](./lesson/lesson2.md)
 - [x] [PocketFlow之**工作流**(Workflow)-自动化天气信息处理系统](./lesson/lesson3.md)
-- [ ] [PocketFlow之**单智能体**(Agent)-旅行规划助手](./lesson/lesson4.md)
+- [x] [PocketFlow之**单智能体**(Agent)-旅行规划助手](./lesson/lesson4.md)
 - [ ] [PocketFlow之**检索增强生成**(RAG)](./lesson/lesson5.md)
 - [ ] [PocketFlow之**批处理**(Batch)](./lesson/lesson6.md)
 - [ ] [PocketFlow之**流式处理**(Streaming)](./lesson/lesson7.md)

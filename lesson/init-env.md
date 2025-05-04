@@ -31,7 +31,7 @@ source p3/bin/activate
 ## 安装 PocketFlow
 
 ```bash
-pip install pocketflow openai PyYAML
+pip install pocketflow openai PyYAML tavily-python
 ```
 
 
